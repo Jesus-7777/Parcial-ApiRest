@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
     "url": {
@@ -27,8 +27,8 @@
       "model": "user"
     },
     "tags": {
-      "collection": "tags",
       "via": "imagenes",
+      "collection": "tags",
       "dominant": true
     }
   }

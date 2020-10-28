@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
     "nombre": {
@@ -16,8 +16,8 @@
       "required": true
     },
     "imagenes": {
-      "via": "tags",
-      "collection": "imagenes"
+      "collection": "imagenes",
+      "via": "tags"
     }
   }
 }
